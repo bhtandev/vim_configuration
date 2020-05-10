@@ -1,0 +1,50 @@
+set surround
+
+" IDEA 
+nnoremap ,e :action SearchEverywhere<CR>
+nnoremap ,g :action FindInPath<CR>
+nnoremap ,s :action FileStructurePopup<CR>
+
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gb :action JumpToLastChange<CR>
+nnoremap md :action MethodDown<CR>
+nnoremap me :action MethodUp<CR>
+nnoremap ,cs :action ChangeSignature<CR>
+
+nnoremap ,re :action RenameElement<CR>
+
+nnoremap ,sw :action SurroundWith<CR>
+vnoremap ,sw :action SurroundWith<CR>
+
+nnoremap ,tm :action GenerateTestMethod <CR>
+nnoremap ,rm :action Move<CR>
+
+nnoremap ,rr :action Run<CR>
+nnoremap ,dd :action Debug<CR>
+
+
+nnoremap U :action FindUsages<CR>
+nnoremap R :action RenameElement<CR>
+
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
+
+nnoremap cc :action CommentByLineComment<CR>
+vnoremap cc :action CommentByLineComment<CR>
+
+nnoremap <C-CR> :action ShowIntentionActions<CR>
+
+nnoremap ,a :action GotoAction<CR>
+vnoremap ,a :action GotoAction<CR>
+
+" shift+arrow selection
+nmap <S-Up> v<Up>
+nmap <S-Down> v<Down>
+nmap <S-Left> v<Left>
+nmap <S-Right> v<Right>
+vmap <S-Up> <Up>
+vmap <S-Down> <Down>
+vmap <S-Left> <Left>
+vmap <S-Right> <Right>
