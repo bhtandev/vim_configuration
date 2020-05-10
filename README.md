@@ -2,6 +2,6 @@
 
 Loving VIM.
 
-My VIM bindings. :) 
+My VIM bindings. :smile:
 
 
